@@ -1,0 +1,56 @@
+/* style sheet */
+body{
+  background-color:#aff;
+}
+h1{
+  background-color:white;
+  padding:10px;
+}
+#contents img{
+  height:80px;
+  width:auto;
+}
+#contents2 img{
+  height:80px;
+  width:auto;
+}
+
+.piece{
+  float:left;
+  padding:3px;
+  margin:1px;
+  background-color:#399;
+  font-size:0.8em;
+  height:100px;
+}
+
+.tar{
+  text-align:right;
+}
+
+button{
+  padding:10px;
+  border:solid 1px;
+  background-color:#faa;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.tac{
+  text-align:center;
+}
+.pad10{
+  padding:10px;
+}
